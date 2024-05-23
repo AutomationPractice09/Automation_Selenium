@@ -1,0 +1,13 @@
+package Package1_WebTest;
+import org.openqa.selenium.*;
+
+public class A1_FirstBrowserTest {
+
+	public static void main(String[] args) 
+	{
+	
+		WebDriver driver = new ChromeDriver();
+		
+	}
+
+}

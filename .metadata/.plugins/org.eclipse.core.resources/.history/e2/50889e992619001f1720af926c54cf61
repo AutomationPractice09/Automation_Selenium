@@ -1,0 +1,10 @@
+package package1_2305;
+
+public class A1_BrowserLaunch {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

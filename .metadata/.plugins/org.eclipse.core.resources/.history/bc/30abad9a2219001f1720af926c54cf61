@@ -1,0 +1,10 @@
+package Package1_WebTest;
+
+public class A1_FirstBrowserTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
