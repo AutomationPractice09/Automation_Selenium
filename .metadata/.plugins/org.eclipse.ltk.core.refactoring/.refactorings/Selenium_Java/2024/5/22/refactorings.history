@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename package &apos;Package1_WebTest&apos; to &apos;Package01_WebTest&apos;&#x0D;&#x0A;- Original project: &apos;Selenium_Java&apos;&#x0D;&#x0A;- Original element: &apos;Selenium_Java/src/Package1_WebTest&apos;&#x0D;&#x0A;- Renamed element: &apos;Selenium_Java/src/Package01_WebTest&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename package &apos;Package1_WebTest&apos;" flags="589830" hierarchical="false" id="org.eclipse.jdt.ui.rename.package" input="/src&lt;Package1_WebTest" name="Package01_WebTest" qualified="false" references="true" stamp="1717083151731" textual="false" version="1.0"/>
+</session>
