@@ -1,0 +1,27 @@
+package Package02_Locators;
+import java.util.List;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class A04_Locators_d 
+{
+
+	public static void main(String[] args) 
+	{
+	
+		WebDriver driver = new ChromeDriver();
+		
+		driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
+		
+		//locate using tagname
+		List<WebElement> all = driver.findElements(By.tagName("input"));
+		
+		System.out.println("Total Input boxes webpage are: "+);
+		
+		
+		
+		
+	}
+
+}

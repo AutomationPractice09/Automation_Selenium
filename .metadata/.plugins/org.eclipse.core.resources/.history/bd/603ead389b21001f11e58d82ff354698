@@ -1,0 +1,10 @@
+package Package02_Locators;
+
+public class A01_Locators_a {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

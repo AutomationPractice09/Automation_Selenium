@@ -1,0 +1,19 @@
+package Package02_Locators;
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class A01_Locators_a {
+
+	public static void main(String[] args) 
+	{
+	
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://google.com");
+		
+		
+		//way-1: locate using By class
+		By searchBox = By.id("APjFqb");
+		driver.findElement(searchBox).sendKeys("testing");
+	}
+
+}

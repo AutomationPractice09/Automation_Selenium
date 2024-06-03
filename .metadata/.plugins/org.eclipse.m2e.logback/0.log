@@ -412,3 +412,14 @@
 2024-05-23 22:48:12,887 [Worker-21: Launching A1_BrowserLaunch (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hp\Desktop\Automation Class\Automation_Selenium\Selenium_MavenArchetype\src\main\resources
 2024-05-23 22:48:12,890 [Worker-21: Launching A1_BrowserLaunch (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2024-05-23 22:48:12,891 [Worker-21: Launching A1_BrowserLaunch (1)] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hp\Desktop\Automation Class\Automation_Selenium\Selenium_MavenArchetype\src\test\resources
+2024-05-30 19:49:54,879 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-05-30 19:50:06,305 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-30 19:50:06,306 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hp\Desktop\Automation Class\Automation_Selenium\Selenium_MavenArchetype\src\main\resources
+2024-05-30 19:50:06,314 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-05-30 19:50:06,314 [Worker-5: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hp\Desktop\Automation Class\Automation_Selenium\Selenium_MavenArchetype\src\test\resources
+2024-06-01 15:02:48,611 [Worker-2: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-03 16:13:35,328 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-03 16:48:36,662 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-03 16:48:36,666 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hp\Desktop\Automation Class\Automation_Selenium\Selenium_MavenArchetype\src\main\resources
+2024-06-03 16:48:36,675 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-03 16:48:36,676 [Worker-24: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hp\Desktop\Automation Class\Automation_Selenium\Selenium_MavenArchetype\src\test\resources
