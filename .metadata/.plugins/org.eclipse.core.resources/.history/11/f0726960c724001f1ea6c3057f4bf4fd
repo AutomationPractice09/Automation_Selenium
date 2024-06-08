@@ -1,0 +1,10 @@
+package package03_Locators_a;
+
+public class A03_LocatorXpath3 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

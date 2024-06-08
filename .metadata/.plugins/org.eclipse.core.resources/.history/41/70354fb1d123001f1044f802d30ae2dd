@@ -1,0 +1,30 @@
+package package03_Locators_a;
+import java.time.Duration;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class A01_LocatorXpath {
+
+	public static void main(String[] args) 
+	{
+	
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+		driver.get("");
+		driver.findElement(By.xpath("//input[@name='email']")).sendKeys("apache@gmail.com");
+		driver.findElement(By.xpath("")).sendKeys("apache@123");
+		driver.findElement(By.xpath("")).click();
+		
+		
+		
+		
+		
+		
+		//input[@name='email']
+		
+		
+	}
+
+}

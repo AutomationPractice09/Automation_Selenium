@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename compilation unit &apos;package03_Locators_a.A01_LocatorXpath.java&apos; to &apos;A01_LocatorXpath1.java&apos;&#x0D;&#x0A;- Original project: &apos;Selenium_Java&apos;&#x0D;&#x0A;- Original element: &apos;package03_Locators_a.A01_LocatorXpath.java&apos;&#x0D;&#x0A;- Renamed element: &apos;package03_Locators_a.A01_LocatorXpath1.java&apos;" description="Rename compilation unit &apos;A01_LocatorXpath.java&apos;" flags="2" id="org.eclipse.jdt.ui.rename.compilationunit" input="/src&lt;package03_Locators_a{A01_LocatorXpath.java" name="A01_LocatorXpath1.java" references="false" stamp="1717657130696" version="1.0"/>
+</session>

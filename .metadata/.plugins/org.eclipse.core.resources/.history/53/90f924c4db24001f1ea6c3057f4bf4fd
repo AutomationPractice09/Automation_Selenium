@@ -1,0 +1,31 @@
+package Assignment;
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Assignment_04 {
+
+	public static void main(String[] args) 
+	{
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+		driver.get("https://google.com");
+		
+		driver.findElement(By.xpath("//textarea[@id='APjFqb']")).sendKeys("testng");
+		
+		List<WebElement> values = driver.findElements(By.xpath("//li[@class='sbct']//following-sibling::li"));
+		
+		System.out.println("Total search results are: "+values.size());
+		
+		for(WebElement i : values)
+		{
+			System.out.println(i.getText());
+		}
+
+	}
+
+}

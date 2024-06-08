@@ -1,0 +1,14 @@
+package package03_Locators_a;
+import org.openqa.selenium.*;
+
+public class A02_LocatorXpath2 {
+
+	public static void main(String[] args) 
+	{
+	
+		WebDriver driver = new ChromeDriver();
+		
+		
+	}
+
+}
