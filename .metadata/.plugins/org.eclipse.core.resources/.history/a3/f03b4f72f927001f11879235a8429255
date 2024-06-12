@@ -1,0 +1,32 @@
+package generic_Package;
+
+import java.util.List;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class Utility_02 
+{
+	
+	public static void selectFrom(WebElement from, String search, String where, )
+	{
+		from.click();
+		from.sendKeys(search);
+		
+		List<WebElement> values = list;
+		
+		System.out.println("Total values in list are: "+values.size());
+		
+		for(WebElement i : values)
+		{
+			System.out.println(i.getText());
+			
+			if(i.getText().contains(where))
+			{
+				i.click();
+				break;
+			}
+		}
+	}
+
+}

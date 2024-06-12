@@ -1,0 +1,10 @@
+package package07_NewTab;
+
+public class A02_NewWindow {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

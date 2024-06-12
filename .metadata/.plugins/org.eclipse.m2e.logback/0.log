@@ -426,3 +426,25 @@
 2024-06-05 10:33:00,485 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2024-06-06 17:06:48,237 [Worker-3: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
 2024-06-07 09:46:16,237 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-08 10:21:08,449 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-10 10:39:47,276 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-10 21:25:15,519 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-10 21:26:34,383 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-10 21:26:34,394 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-06-10 21:26:34,404 [Worker-10: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-10 21:26:34,407 [Worker-10: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-06-10 21:26:36,270 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-10 21:26:36,270 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hp\Desktop\Automation Class\Automation_Selenium\Selenium_MavenArchetype\src\main\resources
+2024-06-10 21:26:36,281 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-10 21:26:36,281 [Worker-10: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hp\Desktop\Automation Class\Automation_Selenium\Selenium_MavenArchetype\src\test\resources
+2024-06-11 18:33:59,520 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2024-06-11 18:43:53,467 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-11 18:43:53,480 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-06-11 18:43:53,501 [Worker-11: Building] WARN  o.a.m.s.f.DefaultMavenResourcesFiltering - Using platform encoding (Cp1252 actually) to copy filtered resources, i.e. build is platform dependent!
+2024-06-11 18:43:53,504 [Worker-11: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource
+2024-06-11 18:43:55,397 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-11 18:43:55,398 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hp\Desktop\Automation Class\Automation_Selenium\Selenium_MavenArchetype\src\main\resources
+2024-06-11 18:43:55,406 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2024-06-11 18:43:55,407 [Worker-11: Building] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\hp\Desktop\Automation Class\Automation_Selenium\Selenium_MavenArchetype\src\test\resources
+2024-06-12 10:15:45,274 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2024-06-12 16:50:03,216 [Worker-0: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.

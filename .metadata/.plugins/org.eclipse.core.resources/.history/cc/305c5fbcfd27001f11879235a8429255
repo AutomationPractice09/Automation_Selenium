@@ -1,0 +1,30 @@
+package generic_Package;
+
+import java.util.List;
+import org.openqa.selenium.WebElement;
+
+public class Utility_02 
+{
+	
+	public static void selectPlace(WebElement dd, String search, String destination, List<WebElement> list)
+	{
+		dd.click();
+		dd.sendKeys(search);
+		
+		List<WebElement> values = list;
+		
+		System.out.println("Total values in list are: "+values.size());
+		
+		for(WebElement i : values)
+		{
+			System.out.println(i.getText());
+			
+			if(i.getText().contains(destination))
+			{
+				i.click();
+				break;
+			}
+		}
+	}
+
+}

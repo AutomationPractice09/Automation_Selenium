@@ -1,0 +1,35 @@
+package package05_Calendar;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class A02_CalendarGoibibo 
+{
+
+	public static void main(String[] args) 
+	{
+	
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+		driver.get("https://www.goibibo.com/");
+		driver.manage().window().maximize();
+		
+		WebElement close = driver.findElement(By.xpath("//span[contains(@class,'logSprite')]"));
+		
+		if (close.isDisplayed())
+		{
+			close.click();
+		}
+		
+		driver.findElement(By.xpath("(//span[contains(@class,'sc-12foipm-8')])[1]")).click();
+		
+		
+		
+	}
+
+}

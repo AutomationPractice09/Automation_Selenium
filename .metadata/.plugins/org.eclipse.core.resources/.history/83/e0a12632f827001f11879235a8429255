@@ -1,0 +1,38 @@
+package Assignment;
+import java.time.Duration;
+import java.util.List;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+//Automate RedBus dropdown and get all options, Select location
+
+public class Assignment_06 {
+
+	public static void main(String[] args) 
+	{
+		
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+		driver.get("https://www.redbus.in/");
+		
+		WebElement from = driver.findElement(By.id("src"));
+		
+		from.click();
+		from.sendKeys("pu");
+		
+		List<WebElement> values = driver.findElements(By.xpath("//ul[contains(@class,'sc-dnqmqq')]//div/text[@class='placeHolderMainText']"));
+		
+		System.out.println("Total values in list are: "+values.size());
+		
+		for(WebElement i : values)
+		{
+			System.out.println(i.getText());
+		}
+	
+		
+		
+	}
+
+}

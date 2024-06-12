@@ -1,0 +1,23 @@
+package package05_Calendar;
+import java.time.Duration;
+
+import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class A01_CalendarRedBus {
+
+	public static void main(String[] args) 
+	{
+		ChromeOptions options = new ChromeOptions();
+		options.addArguments("--disable-notifications");
+	
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		
+		driver.get("https://www.redbus.in/");
+		
+		driver.findElement(By.id("onwardCal")).click();
+	}
+
+}
