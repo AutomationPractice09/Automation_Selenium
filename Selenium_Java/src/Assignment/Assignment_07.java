@@ -4,6 +4,8 @@ import java.util.List;
 
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 //Automate Go-ibibo dropdown
 
@@ -29,11 +31,15 @@ public class Assignment_07 {
 		{
 			close1.click();
 		}
+
 		
-		
-		WebElement from = driver.findElement(By.xpath("//p[@class='sc-12foipm-6 erPfRs']"));
+		WebElement from = driver.findElement(By.xpath("(//p[@class='sc-12foipm-6 erPfRs'])[1]"));
 		from.click();
-		from.sendKeys("pu");
+		
+		WebElement input=driver.findElement(By.xpath("//input[@type='text']"));
+		
+		WebDriverWait waits = new WebDriverWait(driver,Duration.ofSeconds(30));
+		waits.until(ExpectedConditions.visibilityOf(input)).sendKeys("Pune");
 		
 		List<WebElement> values = driver.findElements(By.xpath("//ul[@id='autoSuggest-list']//li//span[@class='autoCompleteTitle ']"));
 		
@@ -43,7 +49,7 @@ public class Assignment_07 {
 		{
 			System.out.println(i.getText());
 			
-			if(i.getText().contains("Pullman, United States"))
+			if(i.getText().contains("Aurangabad, India"))
 			{
 				i.click();
 			}
