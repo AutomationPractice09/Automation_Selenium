@@ -1,0 +1,10 @@
+package package08_ExplicitWait;
+
+public class A02_InternetWait {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

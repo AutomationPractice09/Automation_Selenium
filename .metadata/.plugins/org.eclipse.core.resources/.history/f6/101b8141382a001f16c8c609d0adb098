@@ -1,0 +1,36 @@
+package generic_Package;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class Utility_03 
+{
+	
+	public static WebElement waitForElementToClick(WebDriver driver, By loc)
+	{
+		WebDriverWait wait1 = new WebDriverWait(driver,Duration.ofSeconds(10));
+		return wait1.until(ExpectedConditions.elementToBeClickable(loc));
+	}
+	
+	public static WebElement waitForElementToPresentToClick(WebDriver driver, By loc)
+	{
+		WebDriverWait wait2 = new WebDriverWait(driver,Duration.ofSeconds(10));
+		return wait2.until(ExpectedConditions.presenceOfElementLocated(loc));
+	}
+	
+	public static WebElement waitForElementToVisible(WebDriver driver, By loc)
+	{
+		WebDriverWait wait3 = new WebDriverWait(driver,Duration.ofSeconds(10));
+		return wait3.until(ExpectedConditions.visibilityOfAllElementsLocatedBy(loc));
+	}
+	
+	
+	
+	
+
+}

@@ -1,0 +1,10 @@
+package package10_Capabilities;
+
+public class A03_HeadlessMode {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

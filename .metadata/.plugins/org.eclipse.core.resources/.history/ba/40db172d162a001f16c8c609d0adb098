@@ -1,0 +1,28 @@
+package generic_Package;
+
+import java.util.List;
+import org.openqa.selenium.WebElement;
+
+public class Utility_02 {
+
+	public static void from(WebElement from, List<WebElement> list) 
+	{
+	
+		from.click();
+		from.sendKeys("pu");
+		System.out.println("Total values in list are: "+list.size());
+		for(WebElement i : list)
+		{
+			System.out.println(i.getText());
+			
+			if(i.getText().contains("Nigdi"))
+			{
+				i.click();
+				break;
+			}
+		}
+		
+		
+	}
+
+}

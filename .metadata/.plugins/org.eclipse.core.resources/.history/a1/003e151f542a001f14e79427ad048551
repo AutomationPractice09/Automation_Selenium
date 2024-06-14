@@ -1,0 +1,10 @@
+package package10_Capabilities;
+
+public class A02_DisableNotification {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
