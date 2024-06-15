@@ -1,0 +1,31 @@
+package generic_Package;
+
+import java.util.List;
+import org.openqa.selenium.WebElement;
+
+public class Utility_02 {
+	
+	List<WebElement> list;
+
+	public static void from(WebElement from, List<WebElement> list, String search, String dest) throws InterruptedException 
+	{
+	
+		from.click();
+		from.sendKeys(search);
+		Thread.sleep(2000);
+		System.out.println("Total values in list are: "+list.size());
+		for(WebElement i : list)
+		{
+			System.out.println(i.getText());
+			
+			if(i.getText().contains(dest))
+			{
+				i.click();
+				break;
+			}
+		}
+		
+		
+	}
+
+}

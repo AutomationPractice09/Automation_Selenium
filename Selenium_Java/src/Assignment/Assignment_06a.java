@@ -1,8 +1,6 @@
 package Assignment;
 
 import java.time.Duration;
-import java.util.List;
-
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -25,9 +23,12 @@ public class Assignment_06a {
 		
 		//From
 		WebElement from = driver.findElement(By.id("src"));
-		List<WebElement> values = driver.findElements(By.xpath("//ul[contains(@class,'sc-dnqmqq')]//div/text[@class='placeHolderMainText']"));
+		Utility_02.select(from, driver, "pu", "Nigdi");
 		
-		Utility_02.from(from, values, "pu", "Nigdi");
+		//To
+		WebElement to = driver.findElement(By.id("dest"));
+		Utility_02.select(to, driver, "kolh", "Kolhapura Bypass");
+		
 	}
 
 }
