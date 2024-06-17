@@ -1,0 +1,26 @@
+package package16_FileDownload;
+
+import java.util.HashMap;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
+
+public class A01_FileDownload {
+
+	public static void main(String[] args) 
+	{
+	
+		ChromeOptions options = new ChromeOptions();
+		
+		HashMap<Strng,Object> cpref = new HashMap<String,Object>();
+		
+		WebDriver driver = new ChromeDriver();
+		driver.get("https://the-internet.herokuapp.com/download");
+		
+		driver.findElement(By.xpath("//a[text()='dummy.pdf']")).click();
+		
+	}
+
+}

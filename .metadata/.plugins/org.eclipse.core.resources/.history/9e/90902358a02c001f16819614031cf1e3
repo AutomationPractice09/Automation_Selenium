@@ -1,0 +1,32 @@
+package Assignment;
+
+import java.time.Duration;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class Assignment_09 {
+
+	public static void main(String[] args) 
+	{
+	
+		WebDriver driver = new ChromeDriver();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		driver.get("https://demo.automationtesting.in/FileDownload.html");
+		driver.manage().window().maximize();
+		
+		driver.findElement(By.id("textbox")).sendKeys("This is Dummy File");
+		
+		WebElement button = driver.findElement(By.id("createTxt"));
+		button.click();
+		
+		WebElement link = driver.findElement(By.id("link-to-download"));
+		if(link.isEnabled())
+		{
+			button.click();
+		}
+
+	}
+}
